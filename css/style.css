@@ -1,0 +1,164 @@
+body{
+  background:#f4f4f4;
+}
+
+.section{
+  display:block;
+    position:relative;
+}
+img, .section, body{
+  padding:0;
+  margin:0;
+}
+
+a{
+  cursor:pointer;
+}
+
+/* LAYOUT STUFF */
+.wrapper{
+  width:1455px;
+  margin: 0 auto;
+  background:#f4f4f4;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/27132/bg-repeat.png');
+  background-repeat: repeat-y;
+/*  overflow: auto
+*/}
+.header{
+/*background:#0077bb;*/ 
+}
+
+.left,.right{
+float:left;
+}
+
+.left{
+  /*background:green;*/
+  width:400px;
+}
+
+.right{
+  /*background:orange;*/
+  width:953px;
+  position:relative;
+}
+
+.footer{
+  float:left;
+  width:1440px;
+  /*background:red;*/
+  z-index:999;
+}
+/* */
+
+.sticky-outter{
+position: absolute;
+  left:0px;
+  
+}
+
+#sticky-bar{
+width:100%;
+/*background:yellow;*/
+background:rgba(255, 255, 255, 0.7);
+  z-index:99;
+}
+
+#sticky-trigger{
+  height:0px;
+}
+
+.toggle-container{
+  background:#ffffff;
+}
+.toggle-trigger{
+display:block;
+  height:90px; 
+}
+
+.toggle-trigger.active{
+opacity:.9;
+background:white;
+}
+
+div#sticky-bar.in-active {
+    display: none;
+}
+
+#leave{
+  height: 0px;
+   /* background: red;*/
+}
+
+.toggle-content{
+  /*padding-left: 1px;*/
+}
+
+.toggle-trigger.active:before{
+  content:'';
+  opacity:1;
+  height:auto;
+  display:block;
+  width: 30px;
+  height: 30px;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/27132/toggle-indicator-expanded.png);
+  margin-top: 29px;
+  position: absolute;
+  margin-left: 18px;
+}
+
+/*.toggle-indicator-expanded{
+  opacity:0; 
+  height:0;
+}*/
+
+/*.toggle-trigger.active .toggle-indicator-expanded{
+  opacity:1;
+  height:auto;
+  display:block;
+  width:27px;
+  height:26px;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/27132/toggle-indicator-expanded.png');
+  margin-top: 31px;
+    position: absolute;
+    margin-left: 21px;
+}*/
+
+.showHide{
+  display:block;
+}
+
+
+
+/*
+panel-001.png
+panel-002.png
+panel-003.png
+panel-004.png
+panel-005.png
+panel-006.png
+panel-007.png
+panel-010.png
+panel-011.png
+panel-012.png
+
+toggle-001.png
+toggle-002.png
+toggle-004.png
+toggle-005.png
+toggle-006.png
+toggle-007.png
+toggle-008.png
+toggle-010.png
+toggle-011.png
+toggle-012.png
+toggle-013.png
+header.png
+
+sticky-labels.png
+
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/27132/panel-007.png
+
+https://dl.dropboxusercontent.com/s/uo69lh9bqab21l2/1-Find%20%26%20Manage%20Leads.png
+
+*/
