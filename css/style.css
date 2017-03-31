@@ -17,7 +17,7 @@ a{
 
 /* LAYOUT STUFF */
 .wrapper{
-  width:1455px;
+  width:1440px;
   margin: 0 auto;
   background:#f4f4f4;
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/27132/bg-repeat.png');
@@ -34,7 +34,7 @@ float:left;
 
 .left{
   /*background:green;*/
-  width:317px;
+  width:380px;
 }
 
 .right{
